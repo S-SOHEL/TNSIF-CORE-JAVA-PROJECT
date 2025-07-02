@@ -10,7 +10,7 @@ public class encapculation {
 		
 		OopsConceptDemo obj=new OopsConceptDemo();
 		
-		obj.setName("Sohel")
+		obj.setName("Sohel");
 		obj.setAge(20);
 		obj.setSerialNum(1001);
 		

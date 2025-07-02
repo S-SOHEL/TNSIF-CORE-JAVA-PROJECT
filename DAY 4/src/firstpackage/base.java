@@ -12,12 +12,18 @@ public class base {
 	void methodDefault()
 	{
 		
-		System.out.println("Public acces firstpackage class");
+		System.out.println("Public acces base class");
 		System.out.println("Public varible : "+varPublic);
 	}
 	
 	protected void methodProtected()
 	{
-		System.out.println("Protected acces firstpackage class");
+		System.out.println("Protected acces base class");
+		System.out.println("Protected variable :+varProtected");
+	}
+
+	public void methodPublic() {
+		// TODO Auto-generated method stub
+		
 	}
 }
