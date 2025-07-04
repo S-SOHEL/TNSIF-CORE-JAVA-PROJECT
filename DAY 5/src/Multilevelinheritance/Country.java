@@ -1,4 +1,4 @@
-package com.tnsif.Multilevelinheritance;
+package Multilevelinheritance;
 
 
 //parent			

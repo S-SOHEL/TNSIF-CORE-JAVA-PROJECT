@@ -1,30 +1,32 @@
-package com.tnsif.Multilevelinheritance;
+package Multilevelinheritance;
 
 
 //parent			
-public class Country {
+public class City extends State {
 
 	
-	private String countryname;
-	private String capital;
+	private String cityname;
+	private float area;
 	
-	//getter and setter 
-	public String getCountryname() {
-		return countryname;
+	public String getCityname() {
+		return cityname;
 	}
-	public void setCountryname(String countryname) {
-		this.countryname = countryname;
+	public void setCityname(String cityname) {
+		this.cityname = cityname;
 	}
-	public String getCapital() {
-		return capital;
+	public float getArea() {
+		return area;
 	}
-	public void setCapital(String capital) {
-		this.capital = capital;
+	public void setArea(float area) {
+		this.area = area;
 	}
 	@Override
 	public String toString() {
-		return "Country [countryname=" + countryname + ", capital=" + capital + "]";
+		return "City [cityname=" + cityname + ", area=" + area + ", getStateName()=" + getStateName()
+				+ ", getLangyage()=" + getLangyage() + ", getCountryname()=" + getCountryname() + ", getCapital()="
+				+ getCapital() + "]";
 	}
+	
 	
 	
 	
