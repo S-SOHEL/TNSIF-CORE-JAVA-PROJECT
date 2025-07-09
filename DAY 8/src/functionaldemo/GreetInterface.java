@@ -1,5 +1,6 @@
 package functionaldemo;
 
+
 @FunctionalInterface
 public interface GreetInterface {
 
